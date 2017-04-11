@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Blumix Debug Lab GUM 2016-10-05
+  host: Blumix-Debug-Lab-GUM-2016-10-05
+  disk_quota: 1024M
+  services:
+  - Blumix Debug Lab GUM 2016-10-05-cloudantNoSQLDB
